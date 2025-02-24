@@ -1,0 +1,2 @@
+GlobalRnd   ClientID  LocEpoch    Accuracy    LR          Loss        GradNorm    
+1           0         5           97.2900     0.143844    0.076569    2.010515    
