@@ -8,29 +8,29 @@ This file lets you choose:
 
 Other options include number of clients, global rounds, local epochs, batch size, data partition type, etc.
 """
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset mnist --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case3 --agg_method gm --local_opt sgd
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case2 --lr 0.01 --agg_method avg --local_opt sgd
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset mnist --num_clients 5 --global_rounds 50 --local_epochs 1 --dist dirichlet --agg_method gm --local_opt sass
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset mnist --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case3 --agg_method gm --local_opt sgd
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case2 --lr 0.01 --agg_method avg --local_opt sgd
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset mnist --num_clients 5 --global_rounds 50 --local_epochs 1 --dist dirichlet --agg_method gm --local_opt sass
 
 
 # CIFAR-10
 # case 2
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case2 --agg_method gm --local_opt sgd
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case2 --agg_method avg --local_opt sgd
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case2 --agg_method gm --local_opt sass
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case2 --agg_method avg --local_opt sass
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset cifar10 --num_clients 3 --global_rounds 5 --local_epochs 1 --dist case2 --agg_method gm --local_opt sgd
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case2 --agg_method avg --local_opt sgd
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case2 --agg_method gm --local_opt sass
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case2 --agg_method avg --local_opt sass
 
 # case 3
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case3 --agg_method gm --local_opt sgd
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case3 --agg_method avg --local_opt sgd
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case3 --agg_method gm --local_opt sass
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case3 --agg_method avg --local_opt sass
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case3 --agg_method gm --local_opt sgd
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case3 --agg_method avg --local_opt sgd
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case3 --agg_method gm --local_opt sass
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist case3 --agg_method avg --local_opt sass
 
 # dirichlet
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist dirichlet --agg_method gm --local_opt sgd
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist dirichlet --agg_method avg --local_opt sgd
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist dirichlet --agg_method gm --local_opt sass
-# python /home/local/ASURITE/yzeng88/fedSASS/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist dirichlet --agg_method avg --local_opt sass
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist dirichlet --agg_method gm --local_opt sgd
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist dirichlet --agg_method avg --local_opt sgd
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist dirichlet --agg_method gm --local_opt sass
+# python /home/local/ASURITE/yzeng88/Robust_FL/SASS/experiment.py --dataset cifar10 --num_clients 5 --global_rounds 50 --local_epochs 1 --dist dirichlet --agg_method avg --local_opt sass
 
 import os
 import copy
